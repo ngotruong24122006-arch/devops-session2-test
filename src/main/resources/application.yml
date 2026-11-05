@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: session7
+    datasource:
+        password: ${SPRING_DATASOURCE_PASSWORD}
+        url: ${SPRING_DATASOURCE_URL}
+        username: ${SPRING_DATASOURCE_USERNAME}
+    jpa:
+        hibernate:
+            ddl-auto: ${SPRING_JPA_HIBERNATE_DDL_AUTO}
+        show-sql: true
